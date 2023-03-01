@@ -4,3 +4,4 @@ pandas
 stqdm
 streamlit
 streamlit-aggrid
+openpyxl
