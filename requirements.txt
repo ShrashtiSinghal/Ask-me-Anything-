@@ -3,4 +3,4 @@ openai
 pandas
 stqdm
 streamlit
-
+streamlit-aggrid
