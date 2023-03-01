@@ -4,8 +4,9 @@ import pandas as pd
 import openai
 from config import CONFIG
 from stqdm import stqdm
+import streamlit as st
 
-openai.api_key = CONFIG["openai_api_key"]
+openai.api_key = st.secrets["openai_key"]
 excel_file_path = CONFIG["excel_path"]
 
 
